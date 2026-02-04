@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api";
+// const API_URL = "http://localhost:5000/api";
+const API_URL = "https://hrms-lite-backend-wwzl.onrender.com/api";
 
 // Employee APIs
 export const getEmployees = async () => {
